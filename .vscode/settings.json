@@ -1,0 +1,6 @@
+{
+  "[odin]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "DanielGavin.ols"
+  }
+}
