@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Odin: run",
+      "type": "shell",
+      "command": "odin",
+      "args": ["run", ".", "-collection:src=src", "-debug"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": {
+        "owner": "odin",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^(.*)\\((\\d+):(\\d+)\\)\\s+(Error|Warning|Syntax Error):\\s+(.*)$",
+          "file": 1, "line": 2, "column": 3, "severity": 4, "message": 5
+        }
+      }
+    },
+    {
+      "label": "Odin: build (debug)",
+      "type": "shell",
+      "command": "odin",
+      "args": ["build", ".", "-collection:src=src", "-debug", "-out:build/RPGGame.exe"],
+      "group": "build",
+      "problemMatcher": {
+        "owner": "odin",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^(.*)\\((\\d+):(\\d+)\\)\\s+(Error|Warning|Syntax Error):\\s+(.*)$",
+          "file": 1, "line": 2, "column": 3, "severity": 4, "message": 5
+        }
+      }
+    },
+    {
+      "label": "Odin: check + vet",
+      "type": "shell",
+      "command": "odin",
+      "args": ["check", ".", "-collection:src=src", "-vet"],
+      "group": "test",
+      "problemMatcher": {
+        "owner": "odin",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^(.*)\\((\\d+):(\\d+)\\)\\s+(Error|Warning|Syntax Error):\\s+(.*)$",
+          "file": 1, "line": 2, "column": 3, "severity": 4, "message": 5
+        }
+      }
+    }
+  ]
+}

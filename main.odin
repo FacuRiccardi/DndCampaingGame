@@ -1,7 +1,7 @@
 package main
 
-import "game"
+import "src:app"
 
 main :: proc() {
-	game.loop()
+	app.run()
 }

@@ -1,0 +1,32 @@
+{
+  "assets/animations/gltf/Rig_Medium/Rig_Medium_General.glb": [
+    { "index": 0,  "name": "Death_A" },
+    { "index": 1,  "name": "Death_A_Pose" },
+    { "index": 2,  "name": "Death_B" },
+    { "index": 3,  "name": "Death_B_Pose" },
+    { "index": 4,  "name": "Hit_A" },
+    { "index": 5,  "name": "Hit_B" },
+    { "index": 6,  "name": "Idle_A" },
+    { "index": 7,  "name": "Idle_B" },
+    { "index": 8,  "name": "Interact" },
+    { "index": 9,  "name": "PickUp" },
+    { "index": 10, "name": "Spawn_Air" },
+    { "index": 11, "name": "Spawn_Ground" },
+    { "index": 12, "name": "T-Pose" },
+    { "index": 13, "name": "Throw" },
+    { "index": 14, "name": "Use_Item" }
+  ],
+  "assets/animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb": [
+    { "index": 0,  "name": "Jump_Full_Long" },
+    { "index": 1,  "name": "Jump_Full_Short" },
+    { "index": 2,  "name": "Jump_Idle" },
+    { "index": 3,  "name": "Jump_Land" },
+    { "index": 4,  "name": "Jump_Start" },
+    { "index": 5,  "name": "Running_A" },
+    { "index": 6,  "name": "Running_B" },
+    { "index": 7,  "name": "T-Pose" },
+    { "index": 8,  "name": "Walking_A" },
+    { "index": 9,  "name": "Walking_B" },
+    { "index": 10, "name": "Walking_C" }
+  ]
+}
